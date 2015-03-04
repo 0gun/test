@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:text="URL을 입력하세요"
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<EditText
+		android:hint="URL..."
+		android:layout_height="wrap_content"
+		android:id="@+id/editUrl"
+		android:layout_width="match_parent"></EditText>
+	<Button
+		android:id="@+id/goUrl"
+		android:text="Go Flash"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:textStyle="bold"></Button>
+</LinearLayout>
