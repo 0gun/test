@@ -44,7 +44,4 @@ public class InputURL extends Activity implements OnClickListener{
 		
 	}
 
-    public void aaa(){
-        ;
-    }
 }
